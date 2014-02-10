@@ -18,5 +18,19 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>OpenSans-Semibold.ttf</string>
+		<string>myriadwebpro-bold.ttf</string>
+		<string> MyriadPro-Semibold.ttf</string>
+		<string> MyriadPro-Regular.ttf</string>
+		<string>MyriadPro-Light.ttf</string>
+		<string>MyriadPro-Bold.ttf</string>
+		<string>myriad-web-pro.ttf</string>
+	</array>
 </dict>
 </plist>

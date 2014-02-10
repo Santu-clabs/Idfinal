@@ -7,6 +7,7 @@
 //
 
 #import "sanViewController.h"
+#import "LoginViewController.h"
 
 @interface sanViewController ()
 
@@ -17,8 +18,40 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    UIImageView *backGroundImageView = [[UIImageView alloc] initWithFrame:self.view.frame];
+    backGroundImageView.userInteractionEnabled = YES;
+    CGSize screenSize = [[UIScreen mainScreen] bounds].size;
+    self.navigationController.navigationBarHidden = YES;
+    [self.view addSubview:backGroundImageView];
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
+        if (screenSize.height > 480.0f)
+        {
+            backGroundImageView.image = [UIImage imageNamed:@"1_splash_5_ipad.png"];
+        } else
+        {
+            backGroundImageView.image = [UIImage imageNamed:@"1_splash_5_ipad.png"];
+        }
+    }
+    
+    [self performSelector:@selector(moveToNextScreen) withObject:nil afterDelay:0];
+
 	// Do any additional setup after loading the view, typically from a nib.
 }
+-(void)moveToNextScreen{
+    
+    NSLog(@"%lu",(unsigned long)[[[NSUserDefaults standardUserDefaults] objectForKey:@"token"] length]);
+    if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"token"] length] > 0) {
+      HomeViewController *svc = [[HomeViewController alloc] init];
+       [self presentViewController:svc animated:YES completion:nil];
+        
+        
+    }else{
+        LoginViewController *ovc = [[LoginViewController alloc] init];
+        [self presentViewController:ovc animated:YES completion:nil];
+        
+    }
+}
+
 
 - (void)didReceiveMemoryWarning
 {

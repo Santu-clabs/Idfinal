@@ -12,6 +12,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[UIApplication sharedApplication] setStatusBarHidden:YES
+                                            withAnimation:UIStatusBarAnimationFade];
+    
+
     // Override point for customization after application launch.
     return YES;
 }

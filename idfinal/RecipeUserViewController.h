@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "getPhotoLibViewControllerViewController.h"
 
 @interface RecipeUserViewController : UIViewController
 

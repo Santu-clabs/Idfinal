@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RateView.h"
+@interface RecipeDetailsViewController : UIViewController<RateViewDelegate,UIPickerViewDelegate,UIActionSheetDelegate,UITextFieldDelegate>
 
-@interface RecipeDetailsViewController : UIViewController
+@property(nonatomic,retain) NSString *recipeid;
+@property(nonatomic,retain) NSString *recipesubcategoryid;
+@property (strong, nonatomic) NSArray *mealtype;
+@property(nonatomic,retain) NSString *tempId;
 
 @end

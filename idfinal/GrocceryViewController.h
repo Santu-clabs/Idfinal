@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface GrocceryViewController : UIViewController
-
+#import "subview.h"
+@interface GrocceryViewController : UIViewController<subviewDel>
+{
+    subview *S;
+}
 @end

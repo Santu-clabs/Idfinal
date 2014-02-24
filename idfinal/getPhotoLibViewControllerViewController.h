@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#include <AssetsLibrary/AssetsLibrary.h>
 @interface getPhotoLibViewControllerViewController : UIViewController
+{
+    ALAssetsLibrary *library;
+    NSArray *imageArray;
+    NSMutableArray *mutableArray;
+}
+
+-(void)allPhotosCollected:(NSArray*)imgArray;
 
 @end

@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "subview.h"
 
-@interface ProductlistViewController : UIViewController
-
+@interface ProductlistViewController : UIViewController<subviewDel>
+{
+    subview *S;
+}
 @end

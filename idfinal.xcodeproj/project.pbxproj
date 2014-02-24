@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE4F910918A8E76E009F62B7 /* MyriadPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE4F910318A8E76E009F62B7 /* MyriadPro-Bold.otf */; };
+		EE4F910A18A8E76E009F62B7 /* MyriadPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE4F910418A8E76E009F62B7 /* MyriadPro-Light.otf */; };
+		EE4F910B18A8E76E009F62B7 /* MyriadPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE4F910518A8E76E009F62B7 /* MyriadPro-Regular.otf */; };
+		EE4F910C18A8E76E009F62B7 /* MyriadPro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE4F910618A8E76E009F62B7 /* MyriadPro-Semibold.otf */; };
+		EE4F910D18A8E76E009F62B7 /* MyriadWebPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE4F910718A8E76E009F62B7 /* MyriadWebPro-Bold.ttf */; };
+		EE4F910E18A8E76E009F62B7 /* MyriadWebPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE4F910818A8E76E009F62B7 /* MyriadWebPro.ttf */; };
+		EE4F911118A8E993009F62B7 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4F911018A8E993009F62B7 /* EditViewController.m */; };
+		EE4F911318A90343009F62B7 /* sub_header.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F911218A90343009F62B7 /* sub_header.png */; };
+		EE4F912418A906BD009F62B7 /* logo_100.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F911518A906BD009F62B7 /* logo_100.png */; };
+		EE4F912518A906BD009F62B7 /* logo_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F911618A906BD009F62B7 /* logo_1024.png */; };
+		EE4F912618A906BD009F62B7 /* logo_114.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F911718A906BD009F62B7 /* logo_114.png */; };
+		EE4F912718A906BD009F62B7 /* logo_120.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F911818A906BD009F62B7 /* logo_120.png */; };
+		EE4F912818A906BD009F62B7 /* logo_144.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F911918A906BD009F62B7 /* logo_144.png */; };
+		EE4F912918A906BD009F62B7 /* logo_152.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F911A18A906BD009F62B7 /* logo_152.png */; };
+		EE4F912A18A906BD009F62B7 /* logo_29.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F911B18A906BD009F62B7 /* logo_29.png */; };
+		EE4F912B18A906BD009F62B7 /* logo_40.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F911C18A906BD009F62B7 /* logo_40.png */; };
+		EE4F912C18A906BD009F62B7 /* logo_50.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F911D18A906BD009F62B7 /* logo_50.png */; };
+		EE4F912D18A906BD009F62B7 /* logo_512.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F911E18A906BD009F62B7 /* logo_512.png */; };
+		EE4F912E18A906BD009F62B7 /* logo_57.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F911F18A906BD009F62B7 /* logo_57.png */; };
+		EE4F912F18A906BD009F62B7 /* logo_58.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F912018A906BD009F62B7 /* logo_58.png */; };
+		EE4F913018A906BD009F62B7 /* logo_72.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F912118A906BD009F62B7 /* logo_72.png */; };
+		EE4F913118A906BD009F62B7 /* logo_76.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F912218A906BD009F62B7 /* logo_76.png */; };
+		EE4F913218A906BD009F62B7 /* logo_80.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F912318A906BD009F62B7 /* logo_80.png */; };
+		EE63065918B75924003F7EDA /* GrocceryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE63065818B75924003F7EDA /* GrocceryViewController.m */; };
+		EE63065C18B76455003F7EDA /* addGrocerryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE63065B18B76455003F7EDA /* addGrocerryViewController.m */; };
+		EE63065F18B77595003F7EDA /* UINoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE63065E18B77595003F7EDA /* UINoteView.m */; };
+		EE63066218B77ADB003F7EDA /* DALinedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE63066018B77ADB003F7EDA /* DALinedTextView.m */; };
 		EE78977518A8CED10035A68D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE78977418A8CED10035A68D /* Foundation.framework */; };
 		EE78977718A8CED10035A68D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE78977618A8CED10035A68D /* CoreGraphics.framework */; };
 		EE78977918A8CED10035A68D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE78977818A8CED10035A68D /* UIKit.framework */; };
@@ -196,6 +223,23 @@
 		EE78991518A8D39A0035A68D /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE78991418A8D39A0035A68D /* AboutViewController.m */; };
 		EE78991718A8D4570035A68D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EE78991618A8D4570035A68D /* libsqlite3.dylib */; };
 		EE78991918A8D4A60035A68D /* meal.png in Resources */ = {isa = PBXBuildFile; fileRef = EE78991818A8D4A60035A68D /* meal.png */; };
+		EE91EE5E18ACEFBA00BB1FB4 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE91EE5D18ACEFBA00BB1FB4 /* FavoritesViewController.m */; };
+		EE926C0518AF8A6000C2708C /* comment_star_before.png in Resources */ = {isa = PBXBuildFile; fileRef = EE926C0318AF8A6000C2708C /* comment_star_before.png */; };
+		EE926C0618AF8A6000C2708C /* comment_star.png in Resources */ = {isa = PBXBuildFile; fileRef = EE926C0418AF8A6000C2708C /* comment_star.png */; };
+		EE926C0918AF90BE00C2708C /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE926C0818AF90BE00C2708C /* RateView.m */; };
+		EE94877118ADE8ED00F0C859 /* RecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE94877018ADE8ED00F0C859 /* RecipeViewController.m */; };
+		EE94877418ADED7500F0C859 /* RecipeCatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE94877318ADED7500F0C859 /* RecipeCatViewController.m */; };
+		EE94877718AE1E8F00F0C859 /* RecipeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE94877618AE1E8F00F0C859 /* RecipeListViewController.m */; };
+		EE94888618AE311B00F0C859 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE94888518AE311B00F0C859 /* AsyncImageView.m */; };
+		EE94888918AE3C6400F0C859 /* RecipeDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE94888818AE3C6400F0C859 /* RecipeDetailsViewController.m */; };
+		EE9536BF18B33FB1002A85EB /* RecipeUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9536BE18B33FB1002A85EB /* RecipeUserViewController.m */; };
+		EE95523818BB0D4100A61839 /* UINoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE95523718BB0D4100A61839 /* UINoteView.m */; };
+		EE970F8218B20EDC00A25368 /* RecipeAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE970F8118B20EDC00A25368 /* RecipeAddViewController.m */; };
+		EE970F8418B22AF900A25368 /* plusBtn_green.png in Resources */ = {isa = PBXBuildFile; fileRef = EE970F8318B22AF900A25368 /* plusBtn_green.png */; };
+		EE9A67B018AA052900206D6D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9A67AF18AA052900206D6D /* AssetsLibrary.framework */; };
+		EE9A67B318AA39E600206D6D /* ProductlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9A67B218AA39E600206D6D /* ProductlistViewController.m */; };
+		EE9A67B618AA529E00206D6D /* productsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9A67B518AA529E00206D6D /* productsViewController.m */; };
+		EEC0BBDA18B4DA5000A114B9 /* DailyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC0BBD918B4DA5000A114B9 /* DailyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -209,6 +253,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE4F910318A8E76E009F62B7 /* MyriadPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Bold.otf"; sourceTree = "<group>"; };
+		EE4F910418A8E76E009F62B7 /* MyriadPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Light.otf"; sourceTree = "<group>"; };
+		EE4F910518A8E76E009F62B7 /* MyriadPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Regular.otf"; sourceTree = "<group>"; };
+		EE4F910618A8E76E009F62B7 /* MyriadPro-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Semibold.otf"; sourceTree = "<group>"; };
+		EE4F910718A8E76E009F62B7 /* MyriadWebPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadWebPro-Bold.ttf"; sourceTree = "<group>"; };
+		EE4F910818A8E76E009F62B7 /* MyriadWebPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyriadWebPro.ttf; sourceTree = "<group>"; };
+		EE4F910F18A8E993009F62B7 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		EE4F911018A8E993009F62B7 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		EE4F911218A90343009F62B7 /* sub_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sub_header.png; sourceTree = "<group>"; };
+		EE4F911518A906BD009F62B7 /* logo_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_100.png; sourceTree = "<group>"; };
+		EE4F911618A906BD009F62B7 /* logo_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_1024.png; sourceTree = "<group>"; };
+		EE4F911718A906BD009F62B7 /* logo_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_114.png; sourceTree = "<group>"; };
+		EE4F911818A906BD009F62B7 /* logo_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_120.png; sourceTree = "<group>"; };
+		EE4F911918A906BD009F62B7 /* logo_144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_144.png; sourceTree = "<group>"; };
+		EE4F911A18A906BD009F62B7 /* logo_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_152.png; sourceTree = "<group>"; };
+		EE4F911B18A906BD009F62B7 /* logo_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_29.png; sourceTree = "<group>"; };
+		EE4F911C18A906BD009F62B7 /* logo_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_40.png; sourceTree = "<group>"; };
+		EE4F911D18A906BD009F62B7 /* logo_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_50.png; sourceTree = "<group>"; };
+		EE4F911E18A906BD009F62B7 /* logo_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_512.png; sourceTree = "<group>"; };
+		EE4F911F18A906BD009F62B7 /* logo_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_57.png; sourceTree = "<group>"; };
+		EE4F912018A906BD009F62B7 /* logo_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_58.png; sourceTree = "<group>"; };
+		EE4F912118A906BD009F62B7 /* logo_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_72.png; sourceTree = "<group>"; };
+		EE4F912218A906BD009F62B7 /* logo_76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_76.png; sourceTree = "<group>"; };
+		EE4F912318A906BD009F62B7 /* logo_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_80.png; sourceTree = "<group>"; };
+		EE63065718B75924003F7EDA /* GrocceryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrocceryViewController.h; sourceTree = "<group>"; };
+		EE63065818B75924003F7EDA /* GrocceryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrocceryViewController.m; sourceTree = "<group>"; };
+		EE63065A18B76455003F7EDA /* addGrocerryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addGrocerryViewController.h; sourceTree = "<group>"; };
+		EE63065B18B76455003F7EDA /* addGrocerryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addGrocerryViewController.m; sourceTree = "<group>"; };
+		EE63065D18B77595003F7EDA /* UINoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINoteView.h; sourceTree = "<group>"; };
+		EE63065E18B77595003F7EDA /* UINoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINoteView.m; sourceTree = "<group>"; };
+		EE63066018B77ADB003F7EDA /* DALinedTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DALinedTextView.m; sourceTree = "<group>"; };
+		EE63066118B77ADB003F7EDA /* DALinedTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DALinedTextView.h; sourceTree = "<group>"; };
 		EE78977118A8CED10035A68D /* idfinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = idfinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE78977418A8CED10035A68D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EE78977618A8CED10035A68D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -389,13 +465,6 @@
 		EE78984718A8D04E0035A68D /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~ipad.png"; path = "idfinal/Default~ipad.png"; sourceTree = "<group>"; };
 		EE78984818A8D04E0035A68D /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~iphone.png"; path = "idfinal/Default~iphone.png"; sourceTree = "<group>"; };
 		EE78984918A8D04E0035A68D /* background_iphone_shared.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_iphone_shared.png; path = idfinal/background_iphone_shared.png; sourceTree = "<group>"; };
-		EE7898EB18A8D06F0035A68D /* myriad-web-pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "myriad-web-pro.ttf"; path = "idfinal/myriad-web-pro.ttf"; sourceTree = "<group>"; };
-		EE7898EC18A8D06F0035A68D /* MyriadPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-Bold.ttf"; path = "idfinal/MyriadPro-Bold.ttf"; sourceTree = "<group>"; };
-		EE7898ED18A8D06F0035A68D /* MyriadPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-Light.ttf"; path = "idfinal/MyriadPro-Light.ttf"; sourceTree = "<group>"; };
-		EE7898EE18A8D06F0035A68D /* MyriadPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-Regular.ttf"; path = "idfinal/MyriadPro-Regular.ttf"; sourceTree = "<group>"; };
-		EE7898EF18A8D06F0035A68D /* MyriadPro-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-Semibold.ttf"; path = "idfinal/MyriadPro-Semibold.ttf"; sourceTree = "<group>"; };
-		EE7898F018A8D06F0035A68D /* myriadwebpro-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "myriadwebpro-bold.ttf"; path = "idfinal/myriadwebpro-bold.ttf"; sourceTree = "<group>"; };
-		EE7898F118A8D06F0035A68D /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Semibold.ttf"; path = "idfinal/OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
 		EE7898F218A8D0E30035A68D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		EE7898F318A8D0E30035A68D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		EE7898F518A8D1190035A68D /* NAcntViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAcntViewController.h; sourceTree = "<group>"; };
@@ -422,6 +491,36 @@
 		EE78991418A8D39A0035A68D /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		EE78991618A8D4570035A68D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		EE78991818A8D4A60035A68D /* meal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = meal.png; path = ../../../Documents/meal.png; sourceTree = "<group>"; };
+		EE91EE5C18ACEFBA00BB1FB4 /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FavoritesViewController.h; path = ../FavoritesViewController.h; sourceTree = "<group>"; };
+		EE91EE5D18ACEFBA00BB1FB4 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FavoritesViewController.m; path = ../FavoritesViewController.m; sourceTree = "<group>"; };
+		EE926C0318AF8A6000C2708C /* comment_star_before.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comment_star_before.png; sourceTree = "<group>"; };
+		EE926C0418AF8A6000C2708C /* comment_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comment_star.png; sourceTree = "<group>"; };
+		EE926C0718AF90BE00C2708C /* RateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RateView.h; path = ../RateView.h; sourceTree = "<group>"; };
+		EE926C0818AF90BE00C2708C /* RateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RateView.m; path = ../RateView.m; sourceTree = "<group>"; };
+		EE94876F18ADE8ED00F0C859 /* RecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeViewController.h; path = ../RecipeViewController.h; sourceTree = "<group>"; };
+		EE94877018ADE8ED00F0C859 /* RecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeViewController.m; path = ../RecipeViewController.m; sourceTree = "<group>"; };
+		EE94877218ADED7500F0C859 /* RecipeCatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeCatViewController.h; path = ../RecipeCatViewController.h; sourceTree = "<group>"; };
+		EE94877318ADED7500F0C859 /* RecipeCatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeCatViewController.m; path = ../RecipeCatViewController.m; sourceTree = "<group>"; };
+		EE94877518AE1E8F00F0C859 /* RecipeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeListViewController.h; path = ../RecipeListViewController.h; sourceTree = "<group>"; };
+		EE94877618AE1E8F00F0C859 /* RecipeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeListViewController.m; path = ../RecipeListViewController.m; sourceTree = "<group>"; };
+		EE94888418AE311B00F0C859 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncImageView.h; path = ../../Bluecard/Bluecard/AsyncImageView.h; sourceTree = "<group>"; };
+		EE94888518AE311B00F0C859 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncImageView.m; path = ../../Bluecard/Bluecard/AsyncImageView.m; sourceTree = "<group>"; };
+		EE94888718AE3C6400F0C859 /* RecipeDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeDetailsViewController.h; path = ../RecipeDetailsViewController.h; sourceTree = "<group>"; };
+		EE94888818AE3C6400F0C859 /* RecipeDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeDetailsViewController.m; path = ../RecipeDetailsViewController.m; sourceTree = "<group>"; };
+		EE9536BD18B33FB1002A85EB /* RecipeUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeUserViewController.h; sourceTree = "<group>"; };
+		EE9536BE18B33FB1002A85EB /* RecipeUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeUserViewController.m; sourceTree = "<group>"; };
+		EE95523618BB0D4100A61839 /* UINoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UINoteView.h; path = ../UINoteView.h; sourceTree = "<group>"; };
+		EE95523718BB0D4100A61839 /* UINoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UINoteView.m; path = ../UINoteView.m; sourceTree = "<group>"; };
+		EE970F8018B20EDC00A25368 /* RecipeAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeAddViewController.h; path = ../RecipeAddViewController.h; sourceTree = "<group>"; };
+		EE970F8118B20EDC00A25368 /* RecipeAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeAddViewController.m; path = ../RecipeAddViewController.m; sourceTree = "<group>"; };
+		EE970F8318B22AF900A25368 /* plusBtn_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plusBtn_green.png; sourceTree = "<group>"; };
+		EE9A67AF18AA052900206D6D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		EE9A67B118AA39E600206D6D /* ProductlistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductlistViewController.h; path = ../ProductlistViewController.h; sourceTree = "<group>"; };
+		EE9A67B218AA39E600206D6D /* ProductlistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductlistViewController.m; path = ../ProductlistViewController.m; sourceTree = "<group>"; };
+		EE9A67B418AA529E00206D6D /* productsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = productsViewController.h; path = ../productsViewController.h; sourceTree = "<group>"; };
+		EE9A67B518AA529E00206D6D /* productsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = productsViewController.m; path = ../productsViewController.m; sourceTree = "<group>"; };
+		EEC0BBD818B4DA5000A114B9 /* DailyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DailyViewController.h; path = ../DailyViewController.h; sourceTree = "<group>"; };
+		EEC0BBD918B4DA5000A114B9 /* DailyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DailyViewController.m; path = ../DailyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -429,6 +528,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE9A67B018AA052900206D6D /* AssetsLibrary.framework in Frameworks */,
 				EE78991718A8D4570035A68D /* libsqlite3.dylib in Frameworks */,
 				EE78977718A8CED10035A68D /* CoreGraphics.framework in Frameworks */,
 				EE78977918A8CED10035A68D /* UIKit.framework in Frameworks */,
@@ -449,9 +549,163 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE4F910218A8E76E009F62B7 /* idealappetitefonts */ = {
+			isa = PBXGroup;
+			children = (
+				EE4F910318A8E76E009F62B7 /* MyriadPro-Bold.otf */,
+				EE4F910418A8E76E009F62B7 /* MyriadPro-Light.otf */,
+				EE4F910518A8E76E009F62B7 /* MyriadPro-Regular.otf */,
+				EE4F910618A8E76E009F62B7 /* MyriadPro-Semibold.otf */,
+				EE4F910718A8E76E009F62B7 /* MyriadWebPro-Bold.ttf */,
+				EE4F910818A8E76E009F62B7 /* MyriadWebPro.ttf */,
+			);
+			name = idealappetitefonts;
+			path = "../../Ideal App/idealappetitefonts";
+			sourceTree = "<group>";
+		};
+		EE4F911418A906BD009F62B7 /* idealappetiteicon (1) */ = {
+			isa = PBXGroup;
+			children = (
+				EE4F911518A906BD009F62B7 /* logo_100.png */,
+				EE4F911618A906BD009F62B7 /* logo_1024.png */,
+				EE4F911718A906BD009F62B7 /* logo_114.png */,
+				EE4F911818A906BD009F62B7 /* logo_120.png */,
+				EE4F911918A906BD009F62B7 /* logo_144.png */,
+				EE4F911A18A906BD009F62B7 /* logo_152.png */,
+				EE4F911B18A906BD009F62B7 /* logo_29.png */,
+				EE4F911C18A906BD009F62B7 /* logo_40.png */,
+				EE4F911D18A906BD009F62B7 /* logo_50.png */,
+				EE4F911E18A906BD009F62B7 /* logo_512.png */,
+				EE4F911F18A906BD009F62B7 /* logo_57.png */,
+				EE4F912018A906BD009F62B7 /* logo_58.png */,
+				EE4F912118A906BD009F62B7 /* logo_72.png */,
+				EE4F912218A906BD009F62B7 /* logo_76.png */,
+				EE4F912318A906BD009F62B7 /* logo_80.png */,
+			);
+			path = "idealappetiteicon (1)";
+			sourceTree = "<group>";
+		};
+		EE63064F18B755DE003F7EDA /* Recipe */ = {
+			isa = PBXGroup;
+			children = (
+				EE970F8018B20EDC00A25368 /* RecipeAddViewController.h */,
+				EE970F8118B20EDC00A25368 /* RecipeAddViewController.m */,
+				EE9536BD18B33FB1002A85EB /* RecipeUserViewController.h */,
+				EE94877518AE1E8F00F0C859 /* RecipeListViewController.h */,
+				EE94877018ADE8ED00F0C859 /* RecipeViewController.m */,
+				EE94888818AE3C6400F0C859 /* RecipeDetailsViewController.m */,
+				EE94877218ADED7500F0C859 /* RecipeCatViewController.h */,
+				EE94877318ADED7500F0C859 /* RecipeCatViewController.m */,
+				EE94888718AE3C6400F0C859 /* RecipeDetailsViewController.h */,
+				EE94876F18ADE8ED00F0C859 /* RecipeViewController.h */,
+				EE94877618AE1E8F00F0C859 /* RecipeListViewController.m */,
+				EE9536BE18B33FB1002A85EB /* RecipeUserViewController.m */,
+			);
+			name = Recipe;
+			sourceTree = "<group>";
+		};
+		EE63065018B756FF003F7EDA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EE78991018A8D3240035A68D /* ChangepswdViewController.h */,
+				EE78991118A8D3450035A68D /* ChangepswdViewController.m */,
+				EE78990E18A8D2B50035A68D /* fpasswordViewController.h */,
+				EE7898FE18A8D1990035A68D /* settingsViewController.h */,
+				EE78991418A8D39A0035A68D /* AboutViewController.m */,
+				EE78991318A8D3640035A68D /* AboutViewController.h */,
+				EE7898FF18A8D1A90035A68D /* settingsViewController.m */,
+				EE78990D18A8D2B50035A68D /* fpasswordViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		EE63065118B75734003F7EDA /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				EE78990418A8D1F90035A68D /* profileViewController.h */,
+				EE7898F218A8D0E30035A68D /* LoginViewController.h */,
+				EE7898F618A8D1190035A68D /* NAcntViewController.m */,
+				EE4F911018A8E993009F62B7 /* EditViewController.m */,
+				EE78990518A8D2370035A68D /* profileViewController.m */,
+				EE4F910F18A8E993009F62B7 /* EditViewController.h */,
+				EE7898F318A8D0E30035A68D /* LoginViewController.m */,
+				EE7898F518A8D1190035A68D /* NAcntViewController.h */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		EE63065218B7574E003F7EDA /* header */ = {
+			isa = PBXGroup;
+			children = (
+				EE95523618BB0D4100A61839 /* UINoteView.h */,
+				EE95523718BB0D4100A61839 /* UINoteView.m */,
+				EE63066018B77ADB003F7EDA /* DALinedTextView.m */,
+				EE63066118B77ADB003F7EDA /* DALinedTextView.h */,
+				EE78978418A8CED10035A68D /* sanAppDelegate.m */,
+				EE78978318A8CED10035A68D /* sanAppDelegate.h */,
+				EE94888518AE311B00F0C859 /* AsyncImageView.m */,
+				EE926C0818AF90BE00C2708C /* RateView.m */,
+				EE78990818A8D2630035A68D /* Reachability.m */,
+				EE7898F818A8D1380035A68D /* placeholderTextView.h */,
+				EE78990A18A8D27B0035A68D /* DataManager.h */,
+				EE78990118A8D1E20035A68D /* subview.h */,
+				EE78990B18A8D27B0035A68D /* DataManager.m */,
+				EE78990218A8D1E20035A68D /* subview.m */,
+				EE78990718A8D2630035A68D /* Reachability.h */,
+				EE7898F918A8D1380035A68D /* placeholderTextView.m */,
+				EE926C0718AF90BE00C2708C /* RateView.h */,
+				EE94888418AE311B00F0C859 /* AsyncImageView.h */,
+				EE63065D18B77595003F7EDA /* UINoteView.h */,
+				EE63065E18B77595003F7EDA /* UINoteView.m */,
+			);
+			name = header;
+			sourceTree = "<group>";
+		};
+		EE63065318B7581F003F7EDA /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				EE9A67B118AA39E600206D6D /* ProductlistViewController.h */,
+				EE9A67B418AA529E00206D6D /* productsViewController.h */,
+				EE9A67B518AA529E00206D6D /* productsViewController.m */,
+				EE9A67B218AA39E600206D6D /* ProductlistViewController.m */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		EE63065418B75843003F7EDA /* Daily */ = {
+			isa = PBXGroup;
+			children = (
+				EEC0BBD918B4DA5000A114B9 /* DailyViewController.m */,
+				EEC0BBD818B4DA5000A114B9 /* DailyViewController.h */,
+			);
+			name = Daily;
+			sourceTree = "<group>";
+		};
+		EE63065518B758AA003F7EDA /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				EE91EE5D18ACEFBA00BB1FB4 /* FavoritesViewController.m */,
+				EE91EE5C18ACEFBA00BB1FB4 /* FavoritesViewController.h */,
+			);
+			name = Favorite;
+			sourceTree = "<group>";
+		};
+		EE63065618B75907003F7EDA /* Groceery */ = {
+			isa = PBXGroup;
+			children = (
+				EE63065718B75924003F7EDA /* GrocceryViewController.h */,
+				EE63065818B75924003F7EDA /* GrocceryViewController.m */,
+				EE63065A18B76455003F7EDA /* addGrocerryViewController.h */,
+				EE63065B18B76455003F7EDA /* addGrocerryViewController.m */,
+			);
+			name = Groceery;
+			sourceTree = "<group>";
+		};
 		EE78976818A8CED10035A68D = {
 			isa = PBXGroup;
 			children = (
+				EE4F911418A906BD009F62B7 /* idealappetiteicon (1) */,
+				EE4F910218A8E76E009F62B7 /* idealappetitefonts */,
 				EE78991A18A8D4FD0035A68D /* img */,
 				EE78977A18A8CED10035A68D /* idfinal */,
 				EE78979918A8CED10035A68D /* idfinalTests */,
@@ -472,6 +726,7 @@
 		EE78977318A8CED10035A68D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EE9A67AF18AA052900206D6D /* AssetsLibrary.framework */,
 				EE78991618A8D4570035A68D /* libsqlite3.dylib */,
 				EE78977418A8CED10035A68D /* Foundation.framework */,
 				EE78977618A8CED10035A68D /* CoreGraphics.framework */,
@@ -484,32 +739,16 @@
 		EE78977A18A8CED10035A68D /* idfinal */ = {
 			isa = PBXGroup;
 			children = (
-				EE78990118A8D1E20035A68D /* subview.h */,
-				EE78990218A8D1E20035A68D /* subview.m */,
-				EE78990D18A8D2B50035A68D /* fpasswordViewController.m */,
-				EE78990E18A8D2B50035A68D /* fpasswordViewController.h */,
-				EE78991118A8D3450035A68D /* ChangepswdViewController.m */,
-				EE78990418A8D1F90035A68D /* profileViewController.h */,
-				EE78990718A8D2630035A68D /* Reachability.h */,
-				EE78990818A8D2630035A68D /* Reachability.m */,
-				EE78990518A8D2370035A68D /* profileViewController.m */,
-				EE78991018A8D3240035A68D /* ChangepswdViewController.h */,
-				EE78991318A8D3640035A68D /* AboutViewController.h */,
-				EE78991418A8D39A0035A68D /* AboutViewController.m */,
-				EE78990A18A8D27B0035A68D /* DataManager.h */,
-				EE78990B18A8D27B0035A68D /* DataManager.m */,
-				EE7898FE18A8D1990035A68D /* settingsViewController.h */,
-				EE7898FF18A8D1A90035A68D /* settingsViewController.m */,
+				EE63065618B75907003F7EDA /* Groceery */,
+				EE63065518B758AA003F7EDA /* Favorite */,
+				EE63065418B75843003F7EDA /* Daily */,
+				EE63065318B7581F003F7EDA /* Product */,
+				EE63065218B7574E003F7EDA /* header */,
+				EE63065118B75734003F7EDA /* Account */,
+				EE63065018B756FF003F7EDA /* Settings */,
+				EE63064F18B755DE003F7EDA /* Recipe */,
 				EE7898FB18A8D1600035A68D /* HomeViewController.h */,
 				EE7898FC18A8D1600035A68D /* HomeViewController.m */,
-				EE7898F818A8D1380035A68D /* placeholderTextView.h */,
-				EE7898F918A8D1380035A68D /* placeholderTextView.m */,
-				EE7898F518A8D1190035A68D /* NAcntViewController.h */,
-				EE7898F618A8D1190035A68D /* NAcntViewController.m */,
-				EE7898F218A8D0E30035A68D /* LoginViewController.h */,
-				EE7898F318A8D0E30035A68D /* LoginViewController.m */,
-				EE78978318A8CED10035A68D /* sanAppDelegate.h */,
-				EE78978418A8CED10035A68D /* sanAppDelegate.m */,
 				EE78978618A8CED10035A68D /* Main.storyboard */,
 				EE78978918A8CED10035A68D /* sanViewController.h */,
 				EE78978A18A8CED10035A68D /* sanViewController.m */,
@@ -557,8 +796,11 @@
 				EE7897AE18A8D04D0035A68D /* add_btn.png */,
 				EE7897AF18A8D04D0035A68D /* addrecipes_btn_ipad.png */,
 				EE7897B018A8D04D0035A68D /* addrecipes_btn.png */,
+				EE926C0318AF8A6000C2708C /* comment_star_before.png */,
+				EE926C0418AF8A6000C2708C /* comment_star.png */,
 				EE7897B118A8D04D0035A68D /* back_btn_ipad.png */,
 				EE7897B218A8D04D0035A68D /* back_btn.png */,
+				EE4F911218A90343009F62B7 /* sub_header.png */,
 				EE7897B318A8D04D0035A68D /* calender_view_bar_ipad.png */,
 				EE7897B418A8D04D0035A68D /* calender_view_bar.jpg */,
 				EE7897B518A8D04D0035A68D /* calender_view_iamge_ipad.png */,
@@ -603,6 +845,7 @@
 				EE7897DC18A8D04D0035A68D /* list_favorites_onclick.png */,
 				EE7897DD18A8D04D0035A68D /* list_favorites.png */,
 				EE7897DE18A8D04D0035A68D /* login_ipad.png */,
+				EE970F8318B22AF900A25368 /* plusBtn_green.png */,
 				EE7897DF18A8D04D0035A68D /* login_onclick_ipad.png */,
 				EE7897E018A8D04D0035A68D /* login_onclick.png */,
 				EE7897E118A8D04D0035A68D /* login.png */,
@@ -686,14 +929,6 @@
 				EE78982F18A8D04E0035A68D /* 40_favorite.png */,
 				EE78983018A8D04E0035A68D /* 40_grocery_ipad.png */,
 				EE78983118A8D04E0035A68D /* 40_grocery.png */,
-				EE78983218A8D04E0035A68D /* 40_home_ipad.png */,
-				EE7898EB18A8D06F0035A68D /* myriad-web-pro.ttf */,
-				EE7898EC18A8D06F0035A68D /* MyriadPro-Bold.ttf */,
-				EE7898ED18A8D06F0035A68D /* MyriadPro-Light.ttf */,
-				EE7898EE18A8D06F0035A68D /* MyriadPro-Regular.ttf */,
-				EE7898EF18A8D06F0035A68D /* MyriadPro-Semibold.ttf */,
-				EE7898F018A8D06F0035A68D /* myriadwebpro-bold.ttf */,
-				EE7898F118A8D06F0035A68D /* OpenSans-Semibold.ttf */,
 				EE78983418A8D04E0035A68D /* 40_menuplanner_ipad.png */,
 				EE78983518A8D04E0035A68D /* 40_menuplanner.png */,
 				EE78983618A8D04E0035A68D /* 40_navigation_shadow_ipad.png */,
@@ -713,6 +948,7 @@
 				EE78984418A8D04E0035A68D /* Default-Landscape@2x~ipad.png */,
 				EE78983318A8D04E0035A68D /* 40_home.png */,
 				EE7897D218A8D04D0035A68D /* list_arrow_onclick1_ipad.png */,
+				EE78983218A8D04E0035A68D /* 40_home_ipad.png */,
 				EE78984518A8D04E0035A68D /* Default-Portrait@2x~ipad.png */,
 				EE78984618A8D04E0035A68D /* Default.png */,
 				EE78984718A8D04E0035A68D /* Default~ipad.png */,
@@ -802,19 +1038,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE7898A518A8D04E0035A68D /* 2_username_inputbox_ipad.png in Resources */,
+				EE4F912C18A906BD009F62B7 /* logo_50.png in Resources */,
 				EE7898D818A8D04E0035A68D /* 40_navigation_shadow.png in Resources */,
 				EE7898DF18A8D04E0035A68D /* 40_recipes_ipad.png in Resources */,
 				EE7898AD18A8D04E0035A68D /* 5_favorite_onclick.png in Resources */,
 				EE78988D18A8D04E0035A68D /* popup_cross.png in Resources */,
 				EE78988B18A8D04E0035A68D /* popup_box.png in Resources */,
 				EE78986818A8D04E0035A68D /* input_box_768.png in Resources */,
+				EE4F912518A906BD009F62B7 /* logo_1024.png in Resources */,
 				EE78988218A8D04E0035A68D /* login.png in Resources */,
 				EE78987D18A8D04E0035A68D /* list_favorites_onclick.png in Resources */,
+				EE926C0618AF8A6000C2708C /* comment_star.png in Resources */,
 				EE7898E018A8D04E0035A68D /* 40_recipes.png in Resources */,
 				EE7898B818A8D04E0035A68D /* 5_products_onclick_ipad.png in Resources */,
 				EE78985818A8D04E0035A68D /* comment_star_after_ipad.png in Resources */,
 				EE78987F18A8D04E0035A68D /* login_ipad.png in Resources */,
 				EE78985518A8D04E0035A68D /* calender_view_bar.jpg in Resources */,
+				EE926C0518AF8A6000C2708C /* comment_star_before.png in Resources */,
 				EE7898CE18A8D04E0035A68D /* 40_divider.png in Resources */,
 				EE78987918A8D04E0035A68D /* list_check.png in Resources */,
 				EE7898A918A8D04E0035A68D /* 5_daily_onclick.png in Resources */,
@@ -823,6 +1063,7 @@
 				EE78989C18A8D04E0035A68D /* setdatebox_ipad.png in Resources */,
 				EE7898D718A8D04E0035A68D /* 40_navigation_shadow_ipad.png in Resources */,
 				EE78985D18A8D04E0035A68D /* divider_ipad.png in Resources */,
+				EE4F910918A8E76E009F62B7 /* MyriadPro-Bold.otf in Resources */,
 				EE78987018A8D04E0035A68D /* list_arrow_ipad.png in Resources */,
 				EE78989018A8D04E0035A68D /* recipes_btn_onclick.png in Resources */,
 				EE78986418A8D04E0035A68D /* footer.jpg in Resources */,
@@ -838,6 +1079,7 @@
 				EE78987E18A8D04E0035A68D /* list_favorites.png in Resources */,
 				EE7898A018A8D04E0035A68D /* sub_header_ipad.png in Resources */,
 				EE7898C918A8D04E0035A68D /* 5_setting_onclick.png in Resources */,
+				EE4F910C18A8E76E009F62B7 /* MyriadPro-Semibold.otf in Resources */,
 				EE78988A18A8D04E0035A68D /* popup_box_ipad.png in Resources */,
 				EE7898A718A8D04E0035A68D /* 5_daily_ipad.png in Resources */,
 				EE7898B118A8D04E0035A68D /* 5_grocery_onclick.png in Resources */,
@@ -845,9 +1087,11 @@
 				EE7898CD18A8D04E0035A68D /* 40_divider_ipad.png in Resources */,
 				EE7898C818A8D04E0035A68D /* 5_setting_onclick_ipad.png in Resources */,
 				EE78989718A8D04E0035A68D /* right_arrow.png in Resources */,
+				EE970F8418B22AF900A25368 /* plusBtn_green.png in Resources */,
 				EE78988918A8D04E0035A68D /* plusBtn_ipad.png in Resources */,
 				EE78986E18A8D04E0035A68D /* left_arrow_ipad.png in Resources */,
 				EE7898C518A8D04E0035A68D /* 5_recipes_onclick.png in Resources */,
+				EE4F912818A906BD009F62B7 /* logo_144.png in Resources */,
 				EE78989418A8D04E0035A68D /* reset_password_onclick.png in Resources */,
 				EE78987C18A8D04E0035A68D /* list_favorites_onclick_ipad.png in Resources */,
 				EE7898C718A8D04E0035A68D /* 5_setting_ipad.png in Resources */,
@@ -855,6 +1099,7 @@
 				EE78986C18A8D04E0035A68D /* inputbox_ipad.png in Resources */,
 				EE78989E18A8D04E0035A68D /* setmealtypebox_ipad.png in Resources */,
 				EE78986B18A8D04E0035A68D /* input_field_ipad.png in Resources */,
+				EE4F912F18A906BD009F62B7 /* logo_58.png in Resources */,
 				EE78989518A8D04E0035A68D /* reset_password.png in Resources */,
 				EE7898C318A8D04E0035A68D /* 5_recipes_ipad.png in Resources */,
 				EE78984A18A8D04E0035A68D /* 1_splash_1024.png in Resources */,
@@ -863,9 +1108,11 @@
 				EE7898E918A8D04E0035A68D /* Default~iphone.png in Resources */,
 				EE78988018A8D04E0035A68D /* login_onclick_ipad.png in Resources */,
 				EE7898DE18A8D04E0035A68D /* 40_progress.png in Resources */,
+				EE4F912A18A906BD009F62B7 /* logo_29.png in Resources */,
 				EE7898B618A8D04E0035A68D /* 5_menuplanner.png in Resources */,
 				EE7898D118A8D04E0035A68D /* 40_grocery_ipad.png in Resources */,
 				EE7898AC18A8D04E0035A68D /* 5_favorite_onclick_ipad.png in Resources */,
+				EE4F910B18A8E76E009F62B7 /* MyriadPro-Regular.otf in Resources */,
 				EE78984D18A8D04E0035A68D /* about_logo_ipad.jpg in Resources */,
 				EE78986518A8D04E0035A68D /* header_img_ipad.png in Resources */,
 				EE7898AE18A8D04E0035A68D /* 5_favorite.png in Resources */,
@@ -884,11 +1131,14 @@
 				EE78988F18A8D04E0035A68D /* recipes_btn_onclick_ipad.png in Resources */,
 				EE78984F18A8D04E0035A68D /* add_btn.png in Resources */,
 				EE7898C018A8D04E0035A68D /* 5_progress_onclick_ipad.png in Resources */,
+				EE4F912E18A906BD009F62B7 /* logo_57.png in Resources */,
 				EE7898E218A8D04E0035A68D /* 40_setting.png in Resources */,
+				EE4F913118A906BD009F62B7 /* logo_76.png in Resources */,
 				EE78986D18A8D04E0035A68D /* inputbox.png in Resources */,
 				EE7898A618A8D04E0035A68D /* 2_username_inputbox.png in Resources */,
 				EE7898E118A8D04E0035A68D /* 40_setting_ipad.png in Resources */,
 				EE7898D018A8D04E0035A68D /* 40_favorite.png in Resources */,
+				EE4F912918A906BD009F62B7 /* logo_152.png in Resources */,
 				EE7898CB18A8D04E0035A68D /* 29_input_field_ipad.png in Resources */,
 				EE78986218A8D04E0035A68D /* favorites_btn.png in Resources */,
 				EE78989618A8D04E0035A68D /* right_arrow_ipad.png in Resources */,
@@ -897,6 +1147,7 @@
 				EE7898D318A8D04E0035A68D /* 40_home_ipad.png in Resources */,
 				EE7898BF18A8D04E0035A68D /* 5_progress_ipad.png in Resources */,
 				EE78986318A8D04E0035A68D /* footer_ipad.png in Resources */,
+				EE4F910E18A8E76E009F62B7 /* MyriadWebPro.ttf in Resources */,
 				EE7898B418A8D04E0035A68D /* 5_menuplanner_onclick_ipad.png in Resources */,
 				EE78989918A8D04E0035A68D /* search_btn.png in Resources */,
 				EE78985F18A8D04E0035A68D /* edit_btn_ipad.png in Resources */,
@@ -911,6 +1162,7 @@
 				EE78985918A8D04E0035A68D /* comment_star_before_ipad.png in Resources */,
 				EE7898A318A8D04E0035A68D /* 2_password_inputbox_ipad.png in Resources */,
 				EE7898DB18A8D04E0035A68D /* 40_profile_ipad.png in Resources */,
+				EE4F912D18A906BD009F62B7 /* logo_512.png in Resources */,
 				EE78987818A8D04E0035A68D /* list_check_onclick.png in Resources */,
 				EE7898AA18A8D04E0035A68D /* 5_daily.png in Resources */,
 				EE78985118A8D04E0035A68D /* addrecipes_btn.png in Resources */,
@@ -926,11 +1178,14 @@
 				EE7898B918A8D04E0035A68D /* 5_products_onclick.png in Resources */,
 				EE78985018A8D04E0035A68D /* addrecipes_btn_ipad.png in Resources */,
 				EE78988118A8D04E0035A68D /* login_onclick.png in Resources */,
+				EE4F912718A906BD009F62B7 /* logo_120.png in Resources */,
 				EE78985418A8D04E0035A68D /* calender_view_bar_ipad.png in Resources */,
 				EE78988518A8D04E0035A68D /* no_grocery_ipad.png in Resources */,
 				EE78987A18A8D04E0035A68D /* list_checkBox_ipad.png in Resources */,
 				EE7898BC18A8D04E0035A68D /* 5_profile_onclick_ipad.png in Resources */,
+				EE4F912B18A906BD009F62B7 /* logo_40.png in Resources */,
 				EE7898DA18A8D04E0035A68D /* 40_products.png in Resources */,
+				EE4F910A18A8E76E009F62B7 /* MyriadPro-Light.otf in Resources */,
 				EE78984B18A8D04E0035A68D /* 1_splash_5_ipad.png in Resources */,
 				EE78991918A8D4A60035A68D /* meal.png in Resources */,
 				EE78987B18A8D04E0035A68D /* list_favorites_ipad.png in Resources */,
@@ -940,6 +1195,7 @@
 				EE7898C218A8D04E0035A68D /* 5_progress.png in Resources */,
 				EE7898DC18A8D04E0035A68D /* 40_profile.png in Resources */,
 				EE78989A18A8D04E0035A68D /* send_btn_ipad.png in Resources */,
+				EE4F912418A906BD009F62B7 /* logo_100.png in Resources */,
 				EE7898CF18A8D04E0035A68D /* 40_favorite_ipad.png in Resources */,
 				EE7898EA18A8D04E0035A68D /* background_iphone_shared.png in Resources */,
 				EE78987218A8D04E0035A68D /* list_arrow_onclick.png in Resources */,
@@ -950,6 +1206,7 @@
 				EE78985C18A8D04E0035A68D /* divider_bottom.png in Resources */,
 				EE78978818A8CED10035A68D /* Main.storyboard in Resources */,
 				EE78988E18A8D04E0035A68D /* recipes_btn_ipad.png in Resources */,
+				EE4F913018A906BD009F62B7 /* logo_72.png in Resources */,
 				EE78987618A8D04E0035A68D /* list_check_ipad.png in Resources */,
 				EE7898A418A8D04E0035A68D /* 2_password_inputbox.png in Resources */,
 				EE7898E818A8D04E0035A68D /* Default~ipad.png in Resources */,
@@ -959,10 +1216,14 @@
 				EE7898E718A8D04E0035A68D /* Default.png in Resources */,
 				EE7898E418A8D04E0035A68D /* Default_potrate_ipad.png in Resources */,
 				EE7898BE18A8D04E0035A68D /* 5_profile.png in Resources */,
+				EE4F911318A90343009F62B7 /* sub_header.png in Resources */,
 				EE78989818A8D04E0035A68D /* search_btn_ipad.png in Resources */,
+				EE4F913218A906BD009F62B7 /* logo_80.png in Resources */,
 				EE78988418A8D04E0035A68D /* menu_btn.png in Resources */,
+				EE4F912618A906BD009F62B7 /* logo_114.png in Resources */,
 				EE7898E518A8D04E0035A68D /* Default-Landscape@2x~ipad.png in Resources */,
 				EE7898E618A8D04E0035A68D /* Default-Portrait@2x~ipad.png in Resources */,
+				EE4F910D18A8E76E009F62B7 /* MyriadWebPro-Bold.ttf in Resources */,
 				EE7898C618A8D04E0035A68D /* 5_recipes.png in Resources */,
 				EE7898E318A8D04E0035A68D /* Default_ipad.png in Resources */,
 				EE7898CC18A8D04E0035A68D /* 40_daily_ipad.png in Resources */,
@@ -988,15 +1249,33 @@
 				EE78990C18A8D27B0035A68D /* DataManager.m in Sources */,
 				EE78990318A8D1E20035A68D /* subview.m in Sources */,
 				EE78990F18A8D2B50035A68D /* fpasswordViewController.m in Sources */,
+				EE94877118ADE8ED00F0C859 /* RecipeViewController.m in Sources */,
+				EE94888918AE3C6400F0C859 /* RecipeDetailsViewController.m in Sources */,
+				EEC0BBDA18B4DA5000A114B9 /* DailyViewController.m in Sources */,
+				EE94888618AE311B00F0C859 /* AsyncImageView.m in Sources */,
+				EE95523818BB0D4100A61839 /* UINoteView.m in Sources */,
+				EE4F911118A8E993009F62B7 /* EditViewController.m in Sources */,
+				EE94877418ADED7500F0C859 /* RecipeCatViewController.m in Sources */,
+				EE63065F18B77595003F7EDA /* UINoteView.m in Sources */,
+				EE9536BF18B33FB1002A85EB /* RecipeUserViewController.m in Sources */,
+				EE63065C18B76455003F7EDA /* addGrocerryViewController.m in Sources */,
 				EE7898F418A8D0E30035A68D /* LoginViewController.m in Sources */,
 				EE78990918A8D2630035A68D /* Reachability.m in Sources */,
 				EE78991518A8D39A0035A68D /* AboutViewController.m in Sources */,
 				EE78978118A8CED10035A68D /* main.m in Sources */,
+				EE926C0918AF90BE00C2708C /* RateView.m in Sources */,
 				EE78990018A8D1A90035A68D /* settingsViewController.m in Sources */,
+				EE94877718AE1E8F00F0C859 /* RecipeListViewController.m in Sources */,
 				EE78978B18A8CED10035A68D /* sanViewController.m in Sources */,
+				EE63065918B75924003F7EDA /* GrocceryViewController.m in Sources */,
 				EE78990618A8D2370035A68D /* profileViewController.m in Sources */,
+				EE9A67B618AA529E00206D6D /* productsViewController.m in Sources */,
 				EE78978518A8CED10035A68D /* sanAppDelegate.m in Sources */,
+				EE970F8218B20EDC00A25368 /* RecipeAddViewController.m in Sources */,
+				EE91EE5E18ACEFBA00BB1FB4 /* FavoritesViewController.m in Sources */,
+				EE9A67B318AA39E600206D6D /* ProductlistViewController.m in Sources */,
 				EE7898FD18A8D1600035A68D /* HomeViewController.m in Sources */,
+				EE63066218B77ADB003F7EDA /* DALinedTextView.m in Sources */,
 				EE78991218A8D3450035A68D /* ChangepswdViewController.m in Sources */,
 				EE7898FA18A8D1380035A68D /* placeholderTextView.m in Sources */,
 			);

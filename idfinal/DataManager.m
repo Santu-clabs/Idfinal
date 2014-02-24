@@ -87,7 +87,7 @@ static DataManager *dataManager;
     docsDir = dirPaths[0];
     
     // Build the path to the database file
-    databasePath = [[NSString alloc] initWithString:[docsDir stringByAppendingPathComponent: @"TheBluCard.db"]];
+    databasePath = [[NSString alloc] initWithString:[docsDir stringByAppendingPathComponent: @"IdealAppetitie.db"]];
     BOOL isSuccess = YES;
     NSFileManager *filemgr = [NSFileManager defaultManager];
     if ([filemgr fileExistsAtPath: databasePath ] == NO)
@@ -126,37 +126,52 @@ static DataManager *dataManager;
     if (sqlite3_open(dbpath, &database) == SQLITE_OK)
     {
         const char *insert_stmt = [insertSQL UTF8String];
-        sqlite3_prepare_v2(database, insert_stmt, -1, &statement, NULL);
+       int errorCode = sqlite3_prepare_v2(database, insert_stmt, -1, &statement, NULL);
         
+        NSLog(@" last id %lld",sqlite3_last_insert_rowid(database));
+        if(errorCode != SQLITE_OK) {
+            NSLog(@"Error reading categories. Code: %d, message: '%s'", errorCode,sqlite3_errmsg(database));
+        }
         if (sqlite3_step(statement) == SQLITE_DONE)
         {
+            sqlite3_finalize(statement);
+            sqlite3_close(database);
+             NSLog(@"Error reading categories. Code: %d, message: '%s'", errorCode,sqlite3_errmsg(database));
             return YES;
         }
         else
         {
+            NSLog(@"Error reading categories. Code: %d, message: '%s'", errorCode,sqlite3_errmsg(database));
+            sqlite3_finalize(statement);
+            sqlite3_close(database);
             return NO;
         }
-        sqlite3_reset(statement);
+        //sqlite3_reset(statement);
     }
     return NO;
 }
 
 - (BOOL)delteData:(NSString *)deleteSQL
 {
-    //NSLog(@"Delete: %@",deleteSQL);
+    NSLog(@"Delete: %@",deleteSQL);
     
     const char *dbpath = [databasePath UTF8String];
     if (sqlite3_open(dbpath, &database) == SQLITE_OK)
     {
         const char *insert_stmt = [deleteSQL UTF8String];
-        sqlite3_prepare_v2(database, insert_stmt, -1, &statement, NULL);
+       int errorCode = sqlite3_prepare_v2(database, insert_stmt, -1, &statement, NULL);
         
         if (sqlite3_step(statement) == SQLITE_DONE)
         {
+            sqlite3_finalize(statement);
+            sqlite3_close(database);
             return YES;
         }
         else
         {
+            NSLog(@"Error delet reading categories. Code: %d, message: '%s'", errorCode,sqlite3_errmsg(database));
+            sqlite3_finalize(statement);
+            sqlite3_close(database);
             return NO;
         }
         sqlite3_reset(statement);
@@ -182,6 +197,7 @@ static DataManager *dataManager;
         }
     }
     return statement;
+    sqlite3_close(database);
 }
 
 

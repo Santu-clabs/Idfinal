@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UINoteView : UITextView
+@interface UINoteView : UITextView<UITextFieldDelegate>
 
 @end

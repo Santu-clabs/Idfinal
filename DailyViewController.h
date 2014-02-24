@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "subview.h"
+@interface DailyViewController : UIViewController<subviewDel>{
+    
+    subview *S;
+}
 
-@interface DailyViewController : UIViewController
 
 @end

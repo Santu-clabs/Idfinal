@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface RecipeViewController : UIViewController
+#import "subview.h"
+@interface RecipeViewController : UIViewController<subviewDel>{
+    
+    subview *S;
+}
 
 @end

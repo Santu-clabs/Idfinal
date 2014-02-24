@@ -8,6 +8,11 @@
 
 #import "HomeViewController.h"
 #import "profileViewController.h"
+#import "ProductlistViewController.h"
+#import "FavoritesViewController.h"
+#import "RecipeViewController.h"
+#import "DailyViewController.h"
+#import "GrocceryViewController.h"
 
 @interface HomeViewController ()
 
@@ -191,29 +196,43 @@
 }
 -(void)settingsClick{
     settingsViewController *svc=[[settingsViewController alloc]init];
-    [self presentViewController:svc animated:YES completion:nil];
+     [self.navigationController pushViewController:svc animated:YES];
+    
 }
 -(void)dailyClick{
-    
+    DailyViewController *dvc=[[DailyViewController alloc]init];
+    [self.navigationController pushViewController:dvc animated:YES];
 }
 -(void)profileClick{
     profileViewController *pvc=[[profileViewController alloc]init];
-    [self presentViewController:pvc animated:YES completion:nil];
-}
+     [self.navigationController pushViewController:pvc animated:YES];
+    }
 -(void)productsClick{
+    ProductlistViewController *pvc=[[ProductlistViewController alloc]init];
     
+ [self.navigationController pushViewController:pvc animated:YES];
 }
 -(void)myProgressClick{
     
 }
 -(void)recipesClick{
-    
+    RecipeViewController *rvc=[[RecipeViewController alloc]init];
+     [self.navigationController pushViewController:rvc animated:YES];
+   
 }
 -(void)favoritiesClick{
-    
+    FavoritesViewController *fvc=[[FavoritesViewController alloc]init];
+     [self.navigationController pushViewController:fvc animated:YES];
+    }
+-(void)grocceryClick{
+    FavoritesViewController *fvc=[[FavoritesViewController alloc]init];
+    [self.navigationController pushViewController:fvc animated:YES];
 }
+
 -(void)grocerryClick{
     
+    GrocceryViewController *fvc=[[GrocceryViewController alloc]init];
+    [self.navigationController pushViewController:fvc animated:YES];
 }
 - (void)didReceiveMemoryWarning
 {

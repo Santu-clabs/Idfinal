@@ -11,7 +11,11 @@
 #include "HomeViewController.h"
 #include "settingsViewController.h"
 #import "profileViewController.h"
-
+#import "ProductlistViewController.h"
+#import "FavoritesViewController.h"
+#import "RecipeViewController.h"
+#import "DailyViewController.h"
+#import "GrocceryViewController.h"
 
 @implementation subview
 {
@@ -108,13 +112,13 @@
         lbltextinfo.text=@"RECIPES";
     }
     if(indexPath.row==3){
-        [cmn addTarget:self action:@selector(favoritiesClick) forControlEvents:UIControlEventTouchUpInside];
+        [cmn addTarget:self action:@selector(productlistClick) forControlEvents:UIControlEventTouchUpInside];
         [cmn setBackgroundImage:[UIImage imageNamed:@"40_products.png"] forState:UIControlStateNormal];
         [cmn setBackgroundImage:[UIImage imageNamed:@"40_products.png"] forState:UIControlStateHighlighted];
         lbltextinfo.text=@"PRODUCTS";
     }
     if(indexPath.row==4){
-        [cmn addTarget:self action:@selector(dailyClick) forControlEvents:UIControlEventTouchUpInside];
+        [cmn addTarget:self action:@selector(favoritesClick) forControlEvents:UIControlEventTouchUpInside];
         [cmn setBackgroundImage:[UIImage imageNamed:@"40_favorite.png"] forState:UIControlStateNormal];
         [cmn setBackgroundImage:[UIImage imageNamed:@"40_favorite.png"] forState:UIControlStateHighlighted];
         lbltextinfo.text=@"FAVORITIES";
@@ -167,6 +171,12 @@
      [self.delegates redirect:hvc];
     
 }
+-(void)dailyClick{
+    
+    DailyViewController *hvc=[[DailyViewController alloc]init];
+    [self.delegates redirect:hvc];
+    
+}
 -(void)settingsClick{
     
     settingsViewController *hvc=[[settingsViewController alloc]init];
@@ -177,7 +187,25 @@
     profileViewController *pvc=[[profileViewController alloc]init];
     [self.delegates redirect:pvc];
 }
+-(void)productlistClick{
+    ProductlistViewController *pvc=[[ProductlistViewController alloc]init];
+    [self.delegates redirect:pvc];
+}
+-(void)favoritesClick{
+    FavoritesViewController *fvc=[[FavoritesViewController alloc]init];
+    [self.delegates redirect:fvc];
+}
+-(void)recipesClick{
+    RecipeViewController *rvc=[[RecipeViewController alloc]init];
+    [self.delegates redirect:rvc];
 
+}
+-(void)grocerryClick{
+    
+    GrocceryViewController *rvc=[[GrocceryViewController alloc]init];
+    [self.delegates redirect:rvc];
+
+}
 
 
 

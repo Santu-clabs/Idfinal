@@ -1,21 +1,20 @@
 //
-//  UINoteView.m
-//  idfinal
+//  AYTextViewWithUnderline.m
+//  customUI
 //
-//  Created by Click Labs on 2/21/14.
-//  Copyright (c) 2014 Click Labs. All rights reserved.
+//  Created by LifeWay on 1/28/13.
+//  Copyright (c) 2013 AY. All rights reserved.
 //
 
 #import "UINoteView.h"
 
-@implementation UINoteView
+@implementation AYTextViewWithUnderline
 
 - (id)initWithFrame:(CGRect)frame {
     
     self = [super initWithFrame:frame];
     if (self) {
-        self.backgroundColor = [UIColor colorWithRed:1.0f green:1.0f blue:0.6f alpha:1.0f];
-        self.font = [UIFont fontWithName:@"MyriadPro-Regular" size:15];
+        //self.contentMode = UIViewContentModeRedraw;
     }
     return self;
 }
@@ -25,7 +24,7 @@
     //Get the current drawing context
     CGContextRef context = UIGraphicsGetCurrentContext();
     //Set the line color and width
-    CGContextSetStrokeColorWithColor(context, [UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:0.2f].CGColor);
+    CGContextSetStrokeColorWithColor(context, [UIColor lightGrayColor].CGColor);
     CGContextSetLineWidth(context, 1.0f);
     //Start a new Path
     CGContextBeginPath(context);
@@ -34,13 +33,13 @@
     NSUInteger numberOfLines = (self.contentSize.height + self.bounds.size.height) / self.font.leading;
     
     //Set the line offset from the baseline. (I'm sure there's a concrete way to calculate this.)
-    CGFloat baselineOffset = 6.0f;
+    CGFloat baselineOffset = 9.0f;
     
     //iterate over numberOfLines and draw each line
-    for (int x = 0; x < numberOfLines; x++) {
+    for (int x = 1; x < numberOfLines; x++) {
         //0.5f offset lines up line with pixel boundary
-        CGContextMoveToPoint(context, self.bounds.origin.x, self.font.leading*x + 0.5f + baselineOffset);
-        CGContextAddLineToPoint(context, self.bounds.size.width, self.font.leading*x + 0.5f + baselineOffset);
+        CGContextMoveToPoint(context, self.bounds.origin.x + 5, self.font.leading*x + 0.5f + baselineOffset);
+        CGContextAddLineToPoint(context, self.bounds.size.width - 5, self.font.leading*x + 0.5f + baselineOffset);
     }
     
     //Close our Path and Stroke (draw) it

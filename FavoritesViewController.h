@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LoginViewController.h"
+#import "ChangepswdViewController.h"
+#import "AboutViewController.h"
+#import "subview.h"
 
-@interface FavoritesViewController : UIViewController
-
+@interface FavoritesViewController : UIViewController<subviewDel,UIPickerViewDelegate,UIActionSheetDelegate,UITextFieldDelegate>
+{
+    subview *S;
+}
+@property (strong, nonatomic) NSArray *mealtype;
 @end

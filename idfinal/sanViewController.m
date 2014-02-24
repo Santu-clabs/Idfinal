@@ -42,12 +42,13 @@
     NSLog(@"%lu",(unsigned long)[[[NSUserDefaults standardUserDefaults] objectForKey:@"token"] length]);
     if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"token"] length] > 0) {
       HomeViewController *svc = [[HomeViewController alloc] init];
-       [self presentViewController:svc animated:YES completion:nil];
+        [self.navigationController pushViewController:svc animated:YES];
+      
         
         
     }else{
         LoginViewController *ovc = [[LoginViewController alloc] init];
-        [self presentViewController:ovc animated:YES completion:nil];
+       [self.navigationController pushViewController:ovc animated:YES];
         
     }
 }

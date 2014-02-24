@@ -161,7 +161,10 @@
 }
 -(void)changePasswordClick{
     ChangepswdViewController *CVc=[[ChangepswdViewController alloc]init];
-    [self presentViewController:CVc animated:YES completion:nil];
+   
+    [self.navigationController pushViewController:CVc animated:YES];
+    
+   
 }
 -(void)paymentInfoClick{
     
@@ -209,6 +212,7 @@
             [body appendData:[@"Content-Disposition: form-data; name=\"dbfile\"; filename=\"IdealAppetite.db\"\r\n" dataUsingEncoding:NSUTF8StringEncoding]];
             [body appendData:[@"Content-Type: application/octet-stream\r\n\r\n" dataUsingEncoding:NSUTF8StringEncoding]];
             [body appendData:[NSData dataWithData:fileData]];
+            
             [body appendData:[[NSString stringWithFormat:@"\r\n--%@\r\n",boundary] dataUsingEncoding:NSUTF8StringEncoding]];
             [body appendData:[@"Content-Disposition: form-data; name=\"useraccesstoken\"\r\n\r\n" dataUsingEncoding:NSUTF8StringEncoding]];
             [body appendData:[atoken dataUsingEncoding:NSUTF8StringEncoding]];
@@ -270,8 +274,9 @@
 -(void)aboutClick{
     
     AboutViewController *CVc=[[AboutViewController alloc]init];
-    [self presentViewController:CVc animated:YES completion:nil];
-}
+
+    [self.navigationController pushViewController:CVc animated:YES];
+   }
 -(void)backClick{
     if(S.hidden){
     S.hidden=NO;
@@ -300,16 +305,41 @@
 }
 }
 - (void)redirect:(UIViewController *)vc{
-    [self presentViewController:vc animated:YES completion:nil];
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+    [UIView setAnimationDuration:0.4];
+    // here I put the code to set the posting button off the top of the view
+    [UIView commitAnimations];
+    [self.navigationController pushViewController:vc animated:YES];
+    
 }
 
 -(void)logoutClick{
-
+    [self synchronizeClick];
     [[NSUserDefaults standardUserDefaults] setObject:nil forKey:@"token"];
     [[NSUserDefaults standardUserDefaults] synchronize];
+   
     
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSString *documentsPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+    
+    NSString *filePath = [documentsPath stringByAppendingPathComponent:@"IdealAppetitie.db"];
+    NSError *error;
+    BOOL success = [fileManager removeItemAtPath:filePath error:&error];
+    if (success) {
+        UIAlertView *removeSuccessFulAlert=[[UIAlertView alloc]initWithTitle:@"Congratulation:" message:@"Successfully removed" delegate:self cancelButtonTitle:@"Close" otherButtonTitles:nil];
+        [removeSuccessFulAlert show];
+    }
+    else
+    {
+        NSLog(@"Could not delete file -:%@ ",[error localizedDescription]);
+    }
+    if (error){
+        NSLog(@"%@", error);
+    }
     LoginViewController *ovc = [[LoginViewController alloc] init];
-    [self presentViewController:ovc animated:YES completion:nil];
+     [self.navigationController pushViewController:ovc animated:YES];
+    
 }
 - (void)didReceiveMemoryWarning
 {

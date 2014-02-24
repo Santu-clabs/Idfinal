@@ -263,7 +263,8 @@ else if (![cPasswdtextField.text isEqualToString:uPasswdtextField.text])
                             UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Regestration Sucess" message:@"Please Login!" delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
                             [alert show];
                             LoginViewController *svc = [[LoginViewController  alloc] init];
-                            [self presentViewController:svc animated:YES completion:nil];
+                            [self.navigationController pushViewController:svc animated:YES];
+                            
                             
                         });
                     }
@@ -295,8 +296,8 @@ else if (![cPasswdtextField.text isEqualToString:uPasswdtextField.text])
 }
 -(void)signupClick{
     LoginViewController *svc = [[LoginViewController  alloc] init];
-    [self presentViewController:svc animated:YES completion:nil];
-}
+    [self.navigationController pushViewController:svc animated:YES];
+    }
 
 - (void)didReceiveMemoryWarning
 {

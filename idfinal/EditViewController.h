@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#include "placeholderTextView.h"
 
-@interface EditViewController : UIViewController
+@interface EditViewController : UIViewController<UIImagePickerControllerDelegate,UINavigationControllerDelegate>
+
 
 @end

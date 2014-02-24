@@ -129,9 +129,10 @@
     }
 }
 -(void)backClick{
-    settingsViewController *svc=[[settingsViewController alloc]init];
-    [self presentViewController:svc animated:YES completion:nil];
-}
+    //settingsViewController *svc=[[settingsViewController alloc]init];
+    [self.navigationController popViewControllerAnimated:YES];
+    //[self.navigationController popToViewController:svc animated:NO];
+    }
 -(void)emailClick{
     MFMailComposeViewController *composeViewController = [[MFMailComposeViewController alloc] initWithNibName:nil bundle:nil];
     [composeViewController setMailComposeDelegate:self];

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface addGrocerryViewController : UIViewController
-
+@interface addGrocerryViewController : UIViewController<UITextFieldDelegate,UITextViewDelegate,UIPickerViewDelegate>
+@property (strong, nonatomic) NSMutableArray *mealtype;
 @end

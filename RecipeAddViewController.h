@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RecipeAddViewController : UIViewController
-
+@interface RecipeAddViewController : UIViewController<UIImagePickerControllerDelegate,UINavigationControllerDelegate,UIPickerViewDelegate,UIActionSheetDelegate,UITextFieldDelegate>
+@property (strong, nonatomic) NSMutableArray *mealtype;
+@property (strong,nonatomic) NSString *tempsid;
 @end

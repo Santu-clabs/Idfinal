@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "RecipeCatViewController.h"
 @interface RecipeListViewController : UIViewController
 
+@property(nonatomic,retain)NSString *recipecategoryid;
+@property(nonatomic,retain)NSString *recipecategoryName;
 @end

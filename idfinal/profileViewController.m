@@ -9,7 +9,7 @@
 #import "profileViewController.h"
 #import "Reachability.h"
 #import "DataManager.h"
-
+#import "EditViewController.h"
 
 
 @interface profileViewController ()
@@ -395,11 +395,13 @@
 }
 }
 -(void)editClick{
-   // EditProfileViewController *edvc=[[EditProfileViewController alloc]init];
-    //[self redirect:edvc];
+    EditViewController *edvc=[[EditViewController alloc]init];
+    [self.navigationController pushViewController:edvc animated:YES];
+    
 }
 - (void)redirect:(UIViewController *)vc{
-    [self presentViewController:vc animated:YES completion:nil];
+    [self.navigationController pushViewController:vc animated:YES];
+    
 }
 
 - (void)didReceiveMemoryWarning

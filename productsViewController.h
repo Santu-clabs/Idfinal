@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface productsViewController : UIViewController
-
+@interface productsViewController : UIViewController<UIPickerViewDelegate,UIActionSheetDelegate,UITextFieldDelegate>
+{
+    UIActionSheet *actionSheet;
+}
+@property(atomic,retain)NSString *query;
+@property (strong, nonatomic) NSArray *mealtype;
 @end

@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface RecipeCatViewController : UIViewController
 
+@property(nonatomic,retain)NSString *recipecategoryid;
+@property(nonatomic,retain)NSString *recipecategoryName;
 @end

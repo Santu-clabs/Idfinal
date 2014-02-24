@@ -234,13 +234,7 @@
                     [alert show];
                     });
                     
-//                dispatch_async(dispatch_get_main_queue(), ^{
-//                    [[NSUserDefaults standardUserDefaults] setObject:@"exampletoken" forKey:@"token"];
-//                    [[NSUserDefaults standardUserDefaults] synchronize];
-//                    HomeViewController *svc = [[HomeViewController  alloc] init];
-//                    [self presentViewController:svc animated:YES completion:nil];
-//                    
-//                });
+               
                 }else if([[json objectForKey:@"log"] isEqualToString:@"New user"]){
                     dispatch_async(dispatch_get_main_queue(), ^{
                          [[DataManager shared] removeActivityIndicator:self.view];
@@ -265,10 +259,12 @@
                                 [nsd writeToFile:dbDestinationPath options:NSDataWritingAtomic error:nil];
 
                             [[NSUserDefaults standardUserDefaults] setObject:[newDataArray[0] objectForKey:@"access_token"] forKey:@"token"];
+                            
                             [[NSUserDefaults standardUserDefaults] setObject:[newDataArray[0] objectForKey:@"db_file"] forKey:@"db_file"];
                             [[NSUserDefaults standardUserDefaults] synchronize];
                             HomeViewController *svc = [[HomeViewController  alloc] init];
-                            [self presentViewController:svc animated:YES completion:nil];
+                            [self.navigationController pushViewController:svc animated:YES];
+                            
 
                         });
                         
@@ -300,12 +296,14 @@
 }
 -(void)forgetClick{
     fpasswordViewController *fvc=[[fpasswordViewController alloc]init];
-    [self presentViewController:fvc animated:YES completion:nil];
+    [self.navigationController pushViewController:fvc animated:YES];
+    
 
 }
 -(void)signupClick{
     NAcntViewController *svc = [[NAcntViewController  alloc] init];
-    [self presentViewController:svc animated:YES completion:nil];
+    [self.navigationController pushViewController:svc animated:YES];
+    
 }
 
 - (void)didReceiveMemoryWarning

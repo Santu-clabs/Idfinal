@@ -209,9 +209,7 @@
                             
                             UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Forget password Success" message:@"Please check your mailbox to change password! " delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
                             [alert show];
-                        LoginViewController *vc=[[LoginViewController alloc]init];
-                        [self presentViewController:vc animated:YES completion:nil];
-                        });
+                            [self.navigationController popViewControllerAnimated:YES];                        });
                     }
                     
                     
@@ -243,9 +241,7 @@
     // Dispose of any resources that can be recreated.
 }
 - (void)signupClick{
-    LoginViewController *lvc=[[LoginViewController alloc]init];
-    [self presentViewController:lvc animated:YES completion:nil];
-}
+    [self.navigationController popViewControllerAnimated:YES];}
 - (void)tapped
 
 {
